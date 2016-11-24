@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>About</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/home.css">
+<style type="text/css">
+  #container{
+    height:450px;
+    width:650px;
+    margin: 10px auto;
+    position: relative;
+  }
+  #img{
+    height: 450px;
+    width: 650px:
+    position: absolute;
+  }
+  #left_holder{
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+  }
+  #right_holder{
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+.left{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  left: 0px;
+
+}
+.right{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  left: 0px;
+}
+</style>
+<script type="text/javascript">
+var imagecount=1;
+var Total=4;
+function slide(show)
+{
+  var image= document.getElementsById('img');
+  imagecount= imagecount+show;
+  image.src="images/hy.jpg","images/hy.png","images/ho.jpeg"+ imagecount+".jpg";
+}
+</script>
+<style>
+body {
+  background-image: url("images/gh.jpg");
+}
+</style>
+</head>
+<body>
+<div id="menu">
+  <nav>
+  <ul>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="homepage.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="Events.html">Events</a></li>
+</ul>
+</div>
+</nav>
+<div id="container">
+  <div id="">
+  <img src="images/welcome.jpg" id="img"/>
+  <div id="left_holder"><img onclick="slide(-1)"class="left" src="images/oksol.png"/></div>
+  <div id="right_holder"><img onclick="slide(1)"class="right"src="images/oksag.png"/></div>
+</div>
+<div class="footer-social">
+<li><a href="http://www.facebook.com">
+        <img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png' />
+    </a></li>
+    <span></span>
+<li><a href="http://www.twitter.com">
+    <img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg' />
+</a></li>
+</div>
+<br><center>
+<hr width=80%>
+<u style="color:white;"><b><h3> In this website it is goint to be about TSO  bu sekli cok sevdim><h1></b>
+<hr width=80%>
+</body>
+</html>
