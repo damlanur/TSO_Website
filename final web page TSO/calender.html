@@ -1,0 +1,377 @@
+<html>
+<head>
+<meta name="author">
+<meta content="[Nihan Karaca,Damlanur Onat]">
+<meta charset="UTF-8">
+<title>  Calender</title>
+<link rel="stylesheet" href="home5.css">
+  </header>
+  <style>
+  * {box-sizing:border-box;}
+  ul {list-style-type: none;}
+  body {
+
+  }
+  .month {
+      padding: 70px 25px;
+      width: 100%;
+      background: lightblue;
+  }
+  .month ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .month ul li {
+      color: black;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+
+  .month .prev {
+      float: left;
+      padding-top: 10px;
+  }
+
+  .month .next {
+      float: right;
+      padding-top: 10px;
+  }
+
+  .weekdays {
+      margin: 0px;
+      padding: 10px 0;
+      background-color: #ddd;
+  }
+
+  .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #666;
+      text-align: center;
+  }
+
+  .days {
+      padding: 10px 0;
+      background: #eee;
+      margin: 0;
+  }
+
+  .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size:12px;
+      color: #777;
+  }
+
+  .days li .active {
+      padding: 5px;
+      background: orange;
+      color: white !important
+  }
+  .colors ul {
+    padding: 5px;
+    background: orange;
+    color: white !important;
+  }
+  .try1{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:920px) {
+      .weekdays li, .days li {width: 13.1%;}
+  }
+
+  @media screen and (max-width: 420px) {
+      .weekdays li, .days li {width: 12.5%;}
+      .days li .active {padding: 2px;}
+  }
+
+  @media screen and (max-width: 290px) {
+      .weekdays li, .days li {width: 12.2%;}
+  }
+  body
+  {  background-image: url("turkey/t6.jpg");
+  background-size: cover;
+  }
+
+  </style>
+  <header>
+    <img id="img1" src="turkey/naul.png" style="width:200px;height:200px" />
+    <img id="img2" src="turkey/damlanurunLalesi.png"  style="width:200px;height:200px"/>
+    <div class="deneme2">
+      <center>
+      <h1 style="text-align:center;font-family:"verdana",geneva, sans-serif;"><i>TURKISH STUDENT ORGANIZATION</i></h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </div>
+  <div id="text">
+
+    </div>
+    <div id="social">
+    </div>
+</header>
+  <body>
+  <nav>
+  <ul>
+    <li><a href="home5.html">Home</a></li>
+    <li><a href="certificates.html">Certificates</a></li>
+    <li><a href="calender.html">Calender</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="events.html">Events</a></li>
+  </ul>
+  </nav>
+  <body>
+  <div id="menu">
+    <ul class="colors">
+      <li><h3><span style="background-color: orange;">Club meatings</span><h3></li>
+    <li><h3> <span style="background-color: pink">Turkish Classes</span></h3></li>
+      <li><h3> <span style="background-color: lightgreen">Kitchen Fun</span></h3></li>
+      <li><h3><span style="background-color: yellow">Henna Night</span></h3></li>
+    </ul>
+  <div class="try1">
+  <div class="month">
+  <ul>
+
+    <li style="text-align:center">
+      JANUARY<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+  </div>
+
+  <ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  </ul>
+
+  <ul class="days">
+  <li><span class="active">1</span></li>
+  <li><span style="background-color: pink;padding: 5px;">2</span></li>
+  <li>3</li>
+    <li><span style="background-color: lightgreen;padding: 5px;">4</span></li>
+  <li>5</li>
+  <li><span style="background-color: yellow; padding:5px;">6</span></li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li><span style="background-color: pink;padding: 5px;">9</span></li>
+  </li><li>10</li>
+  <li><span style="background-color: lightgreen;padding: 5px;">11</span></li>
+  <li>12</li>
+  <li><span style="background-color: yellow; padding:5px;">13</span></li>
+  <li>14</li>
+  <li><span class="active">15</span>
+  <li><span style="background-color: pink;padding: 5px;">16</span></li>
+  <li>17</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 18</span></li><li>19</li>
+  <li><span style="background-color: yellow; padding:5px;"> 20</span></li>
+  <li>21</li>
+  <li><span class="active">22</span></li>
+  <li><span style="background-color: pink;padding: 5px;">23</span></li>
+  <li>24</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 25</span></li>
+  <li>26</li>
+  <li><span style="background-color: yellow; padding:5px;"> 27</span></li>
+  <li>28</li>
+  <li><span class="active">29</span></li>
+  <li><span style="background-color: pink;padding: 5px;">30</span></li>
+  <li>31</li>
+  </ul>
+  </try1>
+  <br><br>
+  <div class="sesd">
+  <div class="month">
+  <ul>
+
+    <li style="text-align:center">
+      FEBRUARY<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+  </div>
+
+  <ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  </ul>
+
+  <ul class="days">
+  <li><span class="active">1</span></li>
+  <li><span style="background-color: pink;padding: 5px;">2</span></li>
+  <li>3</li>
+    <li><span style="background-color: lightgreen;padding: 5px;"> 4</span></li>
+  <li>5</li>
+  <li><span style="background-color: yellow; padding:5px;"> 6</span></li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li><span style="background-color: pink;padding: 5px;">9</span></li>
+  </li><li>10</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 11</span></li>
+  <li>12</li>
+  <li><span style="background-color: yellow; padding:5px;"> 13</span></li>
+  <li>14</li>
+  <li><span class="active">15</span>
+  <li><span style="background-color: pink;padding: 5px;">16</span></li>
+  <li>17</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 18</span></li><li>19</li>
+  <li><span style="background-color: yellow; padding:5px;"> 20</span></li>
+  <li>21</li>
+  <li><span class="active">22</span></li>
+  <li><span style="background-color: pink;padding: 5px;">23</span></li>
+  <li>24</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 25</span></li>
+  <li>26</li>
+  <li><span style="background-color: yellow; padding:5px;"> 27</span></li>
+  <li>28</li>
+  <li><span class="active">29</span></li>
+  <li><span style="background-color: pink;padding: 5px;">30</span></li>
+  <li>31</li>
+
+  </div>
+  <br><br>
+  <div class="sesd">
+  <div class="month">
+  <ul>
+
+    <li style="text-align:center">
+      MARCH<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+  </div>
+
+  <ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  </ul>
+
+  <ul class="days">
+  <li><span class="active">1</span></li>
+  <li><span style="background-color: pink;padding: 5px;">2</span></li>
+  <li>3</li>
+    <li><span style="background-color: lightgreen;padding: 5px;"> 4</span></li>
+  <li>5</li>
+  <li><span style="background-color: yellow; padding:5px;"> 6</span></li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li><span style="background-color: pink;padding: 5px;">9</span></li>
+  </li><li>10</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 11</span></li>
+  <li>12</li>
+  <li><span style="background-color: yellow; padding:5px;"> 13</span></li>
+  <li>14</li>
+  <li><span class="active">15</span>
+  <li><span style="background-color: pink;padding: 5px;">16</span></li>
+  <li>17</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 18</span></li><li>19</li>
+  <li><span style="background-color: yellow; padding:5px;"> 20</span></li>
+  <li>21</li>
+  <li><span class="active">22</span></li>
+  <li><span style="background-color: pink;padding: 5px;">23</span></li>
+  <li>24</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 25</span></li>
+  <li>26</li>
+  <li><span style="background-color: yellow; padding:5px;"> 27</span></li>
+  <li>28</li>
+  <li><span class="active">29</span></li>
+  <li><span style="background-color: pink;padding: 5px;">30</span></li>
+  <li>31</li>
+
+  </div>
+
+  <br><br>
+  <div class="sesd">
+  <div class="month">
+  <ul>
+
+    <li style="text-align:center">
+      APRIL<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+  </div>
+
+  <ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+  </ul>
+
+  <ul class="days">
+  <li><span class="active">1</span></li>
+  <li><span style="background-color: pink;padding: 5px;">2</span></li>
+  <li>3</li>
+    <li><span style="background-color: lightgreen;padding: 5px;"> 4</span></li>
+  <li>5</li>
+  <li><span style="background-color: yellow; padding:5px;"> 6</span></li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li><span style="background-color: pink;padding: 5px;">9</span></li>
+  </li><li>10</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 11</span></li>
+  <li>12</li>
+  <li><span style="background-color: yellow; padding:5px;"> 13</span></li>
+  <li>14</li>
+  <li><span class="active">15</span>
+  <li><span style="background-color: pink;padding: 5px;">16</span></li>
+  <li>17</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 18</span></li><li>19</li>
+  <li><span style="background-color: yellow; padding:5px;"> 20</span></li>
+  <li>21</li>
+  <li><span class="active">22</span></li>
+  <li><span style="background-color: pink;padding: 5px;">23</span></li>
+  <li>24</li>
+  <li><span style="background-color: lightgreen;padding: 5px;"> 25</span></li>
+  <li>26</li>
+  <li><span style="background-color: yellow; padding:5px;"> 27</span></li>
+  <li>28</li>
+  <li><span class="active">29</span></li>
+  <li><span style="background-color: pink;padding: 5px;">30</span></li>
+  <li>31</li>
+  </div>
+
+  <div class="footer-social">
+    <a href="http://www.facebook.com">
+          <img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png'/>
+      </a>
+      <span></span>
+  <a href="http://www.twitter.com">
+      <img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg'/>
+  </a>
+  </div>
+  <br><center>
+  <hr width=80%>
+  <u style="color:red;"><marquee behavior="slide" direction="left">
+  <b><h3> Dost kara günde belli olur.(A friend is known in adversity, like gold is known in fire.)  <h3></b></marquee>
+  <hr width=80%>
+</head>
+</html>

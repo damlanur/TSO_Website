@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<title>Events</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="event.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+body
+ {
+    background: url("turkey/t6.jpg");
+    background-size: 100% 100%;
+
+ }
+</style>
+<header>
+  <img id="img1" src="turkey/naul.png" style="width:200px;height:200px" />
+  <img id="img2" src="turkey/damlanurunLalesi.png"  style="width:200px;height:200px"/>
+  <div class="deneme2">
+    <center>
+      <br>
+      <br>
+      <br>
+    <h1 style="text-align:center;font-family:"verdana",geneva, sans-serif;"><i>TURKISH STUDENT ORGANIZATION</i></h1>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div id="text">
+
+  </div>
+  <div id="social">
+  </div>
+</header>
+<body>
+<div id="menu">
+<nav>
+<ul>
+  <li><a href="home5.html">Home</a></li>
+  <li><a href="certificates.html">Certificates</a></li>
+  <li><a href="calender.html">Calender</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="events.html">Events</a></li>
+</ul>
+</nav>
+</div>
+<div id="wrapper">
+  <div id="first">
+    </div>
+<div id="second">
+    <div class="after-box">
+    <section>
+        <span>
+          <div class="top">
+          <div class="w3-container">
+      <center><h2>CLUB EVENTS</h2></center>
+    <br>
+    </div>
+    <div class="w3-content w3-display-container">
+    <a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+    <div class="w3-display-container mySlides">
+      <img src="event/tdersi.jpg" style="width:100%">
+      <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+      Turkish Classes
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <img src="event/kitchenf.jpg" style="width:100%">
+      <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+        Kitchen Fun
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <img src="event/pudding.jpeg" style="width:100%">
+      <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+        Noah's Pudding Day
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <img src="event/cookingc.jpg" style="width:100%">
+      <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+        Cooking Classes
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <img src="event/henna.jpg" style="width:100%">
+      <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+      </div>
+      </div>
+      </div>
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+        </script>
+
+        </span>
+
+      </section>
+    </div>
+    <style>
+div.container {
+    width: 100%;
+    border: 0.5em solid;
+}
+
+div.box {
+    box-sizing: border-box;
+    width: 47%;
+    /*border: 1em solid red;*/
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+
+    float: left;
+}
+div.box2{
+  box-sizing: border-box;
+  width: 47%;
+  /*border: 1em solid red;*/
+  margin-top: 5px;
+  margin-bottom: 3px;
+margin-right: 3px;
+
+  float: right;
+
+}
+</style>
+</head>
+<body>
+    <br><br><br>
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Turkish Classes</h3><br><br><br><p style="text-align:center">
+        Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+       You can also get free Turkish translation by Turkish Class users in the translation forum.
+         </span><br><br><br><br></div>
+      <div class="box2"><img src="event/t class.png" style="width:100%"></div>
+      <div style="clear:both;"></div>
+    </div>
+
+    <br>
+
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Cooking Classes</h3><br><br><br><p style="text-align: center">Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+    You can also get free Turkish translation by Turkish Class users in the translation forum.
+    This div occupies the left half.</p><br><br><br><br></div>
+      <div class="box2"><img src="event/cclass.png" style="width:100%"></div>
+      <div style="clear:both;"></div>
+
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Club Orientation</h3><br><br><br><p style="text-align: center">Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+    You can also get free Turkish translation by Turkish Class users in the translation forum.
+    This div occupies the left half.</p><br><br><br><br></div>
+      <div class="box2"><img src="event/orientation.png" style="width:100%"></div>
+      <div style="clear:both;"></div>
+    </div>
+
+    <br>
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Kitchen Fun</h3><br><br><br><p style="text-align: center">Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+    You can also get free Turkish translation by Turkish Class users in the translation forum.
+    This div occupies the left half.</p><br><br><br><br></div>
+      <div class="box2"><img src="event/kitchenfun.png" style="width:100%"></div>
+      <div style="clear:both;"></div>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Noah's Pudding Day</h3><br><br><br><p style="text-align: center">Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+    You can also get free Turkish translation by Turkish Class users in the translation forum.
+    This div occupies the left half.</p><br><br><br><br></div>
+      <div class="box2"><img src="event/pudding.png" style="width:100%"></div>
+      <div style="clear:both;"></div>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="box"><h3 style="text-align: center">Henna Night</h3><br><br><br><p style="text-align: center">Start learning Turkish now with our comprehensive Turkish language lessons.
+         If you want a more structured studying plan with lessons and homework assignments,
+          follow our Turkish learning groups: beginner 1, 2, 3 and 4 are available and intermediate level groups are in progress.
+    You can also get free Turkish translation by Turkish Class users in the translation forum.
+    This div occupies the left half.</p><br><br><br><br></div>
+      <div class="box2"><img src="event/henna2.jpg" style="width:100%"></div>
+      <div style="clear:both;"></div>
+      </div>
+    </div>
+
+
+
+      </div>
+
+      <div id="third">
+
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="http://www.facebook.com">
+            <img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png'/>
+        </a>
+        <span></span>
+    <a href="http://www.twitter.com">
+        <img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg'/>
+    </a>
+    </div>
+    <br><center>
+    <hr width=80%>
+    <u style="color:red;"><marquee behavior="slide" direction="left">
+    <b><h3> Gözden uzak olan gönülden de uzak olur.(Out of sight, out of mind.) <h3></b></marquee>
+    <hr width=80%>
+
+</body>
+</html>

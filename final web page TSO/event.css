@@ -1,0 +1,248 @@
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 5px 0;
+}
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 20px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+} .feature { background:;padding:18px;}
+  .feature-inner { margin:auto;width:970px; }
+  .feature-inner h1 {color:#B0C4DE;font-size:32px;text-align: center;}
+
+      .media a {
+        height: 10px;
+        width: 10px;
+    opacity:0.61;
+}
+.media a:hover {
+  height: 10px;
+  width: 10px;
+
+    opacity:1;
+}
+.body{
+  background-repeat: no-repeat;
+
+}
+ div #inside{
+   text-align: center;
+   backface-visibility:hidden;
+box-sizing:border-box;
+color:rgb(51, 51, 51);
+display:none;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+height:auto;
+line-height:20px;
+perspective:1000px;
+position:relative;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.6s;
+transition-property:transform;
+transition-timing-function: ease-in-out;
+width:auto;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+ .firstpart{
+box-sizing:border-box;
+display:block;
+float: left;
+font-family:trend_sansone, Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:20px;
+text-size-adjust:100%;
+width:310px;
+}
+.footer-social { float: right; margin-top:0px;}
+.footer-social li { display: inline;}
+.footer-social span { margin-top: -20px;}
+
+
+.secondpart{
+  box-sizing:border-box;
+display:block;
+float: right;
+font-family:trend_sansone, Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size:20px;
+
+
+text-size-adjust:100%;
+width:310px;
+}
+
+.deneme{
+  background-image:url('file:///Users/nihankaraca/Desktop/Screen%20Shot%202016-11-24%20at%201.33.56%20PM.png');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deneme.deneme2{
+  position: relative;
+  top:100px;
+
+}
+div {
+    display: block;
+}
+#wrapper {
+    width: 100%;
+    height:100%;
+}
+
+#first {
+    float:left;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#second {
+  float:none;
+  margin: 10% 10% 10% 10%;
+  width: 80%;
+  height: 100%;
+
+}
+
+#third {
+  float:right;
+
+  width: 10%;
+  height: 100%;
+
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 9%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#img1
+{
+   float:left;
+   width:100px;
+   height:100px;
+}
+#img2
+{
+   float:right;;
+   width:100px;
+   height:100px;
+   margin-left:5px; //If you want some space between them
+}
+#text
+{
+   float:left;
+   margin-left:10px;
+}
+#title
+{
+   font-weight:20px;
+   float:left;
+}
+#description
+{
+   font-weight:10px;
+   float:left;
+   clear:both;
+}
+#social
+{
+   float:right;
+}
+img#img2 {
+
+  float: right;
+
+}
+.top{
+  margin-top: -120px;
+}
+.footer-social { float: right; margin-top:10px;}
+.footer-social li { display: inline;}
+.footer-social span { margin-top: -20px;}
